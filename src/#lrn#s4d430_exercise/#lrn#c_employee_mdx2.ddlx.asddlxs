@@ -1,0 +1,10 @@
+@Metadata.layer: #CUSTOMER
+annotate view /LRN/C_Employee_Mdx with
+  parameters
+    @EndUserText.label: 'Currency Conversion Date'
+    p_date
+  {
+    @EndUserText.label: 'Department Assistant'
+    AssistantName;
+
+  }

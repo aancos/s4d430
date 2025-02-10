@@ -1,0 +1,8 @@
+@EndUserText.label: 'Employee Query (Access Control)'
+@MappingRole: true
+define role /LRN/C_EMPLOYEE_AUT {
+ grant select on /LRN/C_EMPLOYEE_AUT
+ where inheriting conditions 
+  from entity /LRN/R_Employee_Aut;
+                        
+}

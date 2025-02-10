@@ -1,0 +1,9 @@
+@EndUserText.label: 'Department Query (Access Control)'
+@MappingRole: true
+define role /LRN/C_DEPARTMENT_AUT 
+{
+  grant select on /LRN/C_DEPARTMENT_AUT
+  where inheriting conditions 
+              from entity /LRN/R_Department_Aut;
+                        
+}

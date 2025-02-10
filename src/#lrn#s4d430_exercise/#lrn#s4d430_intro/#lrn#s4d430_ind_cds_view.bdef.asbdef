@@ -1,0 +1,11 @@
+managed; // implementation in class /lrn/bp_s4d430_ind_cds_view unique;
+define behavior for /LRN/S4D430_IND_CDS_View //alias <alias_name>
+persistent table /LRN/S4D430_IND
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

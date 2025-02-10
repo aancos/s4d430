@@ -1,0 +1,7 @@
+@Metadata.layer: #CORE
+annotate view /LRN/S4D430_IND_CDS_View with
+  {
+    @EndUserText.label: 'Description'
+    Description;
+
+  }
